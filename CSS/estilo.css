@@ -392,10 +392,12 @@ h1{
 }
 
 .contenidoPrimario{
-    width: 75%;
+    width: 80%;
     flex-direction: column;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     margin-right: 0.5rem;
+    margin-left: 1rem;
+
 }
 
 .contenidoPrimario p{
