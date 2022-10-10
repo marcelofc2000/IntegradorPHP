@@ -1,0 +1,498 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+/* Cabecera */
+.cabecera{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    background-color:#353a40;
+    align-content: center;
+    justify-content:space-around;
+}
+
+
+.cajaLogo{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-left: 2rem;
+    
+}    
+
+.img__logo{
+    width: 20%;
+}
+
+.cajaLogo h2{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.cajaNav{
+    display: flex;
+    padding-right: 2.5rem;
+    width:50%;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.navtext{ 
+    color:#9a9da2;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.comprar{
+    color:green;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.cajaNav a:hover{
+    color: white;
+}
+
+
+.cajaNav a:active{
+    color: white;
+}
+
+.comprar:hover{
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+/* Principal */
+
+.SeccionPrimaria{
+    background-image: linear-gradient(to right,rgb(0 0 0 /.5),rgb(0 0 0 /.5)), url("/Assets/imagenes/ba1.jpg");
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+.contenidoPrimario{
+    width: 40%;
+    text-align: right;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-right: 10rem;
+}
+
+.contenidoPrimario p{
+    font-size: 1.4rem;
+    color: white;
+    text-align: right;
+    margin-bottom: 2rem;
+}
+
+.botones{
+    display: flex;
+    justify-content: end;
+}
+
+.boton1{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border: white solid 3px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.boton1:hover{
+    background-color: green;
+}
+
+.boton2{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    background-color: green;
+    border: green solid 3px;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.boton2:hover{
+    background-color: #ffffff;
+    color: green;
+}
+
+
+/* Tarjetas */
+
+.sectionTarjetas{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.tituloTarjetas{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tituloTarjetas h2{
+    font-size: 2rem;
+}
+
+.padreTarjetas{
+    width:60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 2%;
+}
+
+.tarjetas__flex{
+    width: 60%;
+    display:flex;   
+    justify-content:center;
+    border: 0.5px #d6d6d6 solid;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.tarjetas__flex h3{
+    margin-top: .5rem;
+}
+
+
+.tarjetaImagen{
+    width: 100%;
+}
+
+.tarjetaContenido{
+    padding:1rem;
+    row-gap: 1rem;
+}
+
+.tarjetaParrafo{
+    width:80%;
+    padding-top: 1rem;
+}
+
+.e-react{
+    color: white;
+    background-color: #17a2b7;
+    padding: 0.2rem;
+    border-radius: 10%;
+    margin: 0.5rem;
+}
+.e-js{
+    color: white;
+    background-color: #fdc109;
+    padding: 0.2rem;
+    border-radius: 10%;
+    margin: 0.5rem;
+}
+
+.e-negocios{
+    color: white;
+    background-color: #6b757e;
+    padding: 0.2rem;
+    border-radius: 10%;
+    margin: 0.5rem;
+}
+
+.e-start{
+    color: white;
+    background-color: #dc3546;
+    padding: 0.2rem;
+    border-radius: 10%;
+    margin: 0.5rem;
+}
+
+/*seccion Dos*/
+
+.seccionDos{
+    display: flex;
+    height: 70vh;
+    background-color: #353a40;
+}
+
+.fotoDos{
+    display: flex;
+    width: 50%;
+    /* height: 100%; */
+}
+
+.fotoDos img{
+    width: 100%;
+}
+
+.textoDos{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    margin-top: 1.5rem;
+    color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
+    font-size: 1rem;
+    row-gap: 2rem;
+    line-height: 1.5rem;
+}
+
+.boton3{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border: white solid 3px;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+/*formulario*/
+
+.seccionFormulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    row-gap: 1rem;
+    font-size: 1.1rem;
+}
+
+.seccionFormulario :link{
+    text-decoration:dotted;
+}
+
+.formPrin{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    row-gap: 1rem;
+}
+
+.nyap{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+
+.input-text{
+    width: 50%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.campTextarea{
+    height: 8rem;
+    font-size: 1.2rem;
+    color:#6b757e;
+    padding: 0.8rem;
+}
+
+#etiquetaFinal{
+    color: #6b757e;
+    font-size: 1rem;
+}
+
+.boton4{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    background-color:#96c93e ;
+    border: #96c93e solid 3px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* footer */
+
+.pie{
+    background-color: #1d4358;
+    display: flex;
+    padding: 2rem 5rem;
+    width:100%;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.pietext{ 
+    color:white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.pietext:hover{
+    color: green;
+}
+
+
+/* celular */
+@media screen and (max-width:768px){
+    .cabecera{
+        position:absolute;
+        flex-direction: column;
+        width: 100%;
+        }
+
+
+.cajaLogo{
+    width: 100%;
+    padding: 1rem;
+    justify-content: center;  
+    margin-bottom: 0.5rem;  
+}    
+
+.cajaNav{
+    width:100%;
+    flex-direction: column;
+    padding-right: initial;
+    margin-bottom: 1rem;
+}
+
+
+.navtext{ 
+    font-size: 1.2rem;
+}
+
+.comprar{
+    font-size: 1.2rem;
+}
+
+
+.SeccionPrimaria{
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.contenidoPrimario{
+    width: 75%;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.contenidoPrimario p{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.botones{
+    column-gap: 1rem;
+}
+
+.boton1{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: solid 1px;
+}
+
+.boton2{
+    font-size: 1rem;
+    border: solid 1px;
+    padding: 0.5rem;
+}
+
+
+.padreTarjetas{
+    width:90%;    
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.tarjetas__flex{
+    width: 80%;
+    row-gap: 1rem;
+}
+
+
+.seccionDos{
+    flex-direction: column;
+    height: 90vh;
+}
+
+
+.fotoDos{
+    display: flex;
+    width: 100%;
+    
+}
+
+
+.textoDos{
+    width: 100%;
+    align-items: flex-start;
+    padding-right: 1rem;
+    font-size: 1rem;
+    row-gap: 1rem;
+    line-height: 1.2rem;
+}
+
+
+.boton3{
+    font-size: 1rem;
+    border: white solid 1px;
+}
+
+.seccionFormulario{
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+.formPrin{
+    width: 80%;
+}
+
+.nyap{
+    flex-direction: column;
+    row-gap: 0.6rem;
+}
+
+.input-text{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.campTextarea{
+    font-size: 1rem;
+}
+
+.pie{
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.pietext{ 
+    color:white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+}
