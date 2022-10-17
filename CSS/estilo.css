@@ -72,10 +72,9 @@ h1{
 .comprar:hover{
     color: white;
     background-color: green;
-    text-decoration: none;
-    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 10px;
 }
-
 
 /* Principal */
 
@@ -351,6 +350,63 @@ h1{
 }
 
 
+/* ********************************** */
+/* ********VENTA TICKETS************* */
+/* ********************************** */
+.cajaticket{
+    border: solid black 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cajacarteles{
+    background-color: pink;
+    display: flex;
+    column-gap: 15px;
+    padding: 5px;
+    height: 50vh;
+    width: 60%;
+    justify-content: space-around;
+
+}
+
+
+.cajita{
+    border: solid 1px black;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+#cajita1{
+    background-color: #0d6efd;
+    padding: 10%;
+    text-align: center;
+    color: white;
+}
+
+.cajita2{
+    border: solid 5px #0dcaf0;
+    width: 30%;
+}
+
+.cajita3{
+    border: solid 5px #ffc107;
+    width: 30%;
+}
+
+.cajaformulario{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
 /* celular */
 @media screen and (max-width:768px){
     .cabecera{
@@ -383,6 +439,9 @@ h1{
     font-size: 1.2rem;
 }
 
+.comprar:hover{
+    padding: 2px;
+}
 
 .SeccionPrimaria{
     width: 100%;
