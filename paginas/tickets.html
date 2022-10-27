@@ -42,23 +42,44 @@
                     <div class="cajita"></div>
                     <div class="cajita"></div>
             </div>
-            <div class="cajaformulario">
+            <div class="cajaformularioTk">
                 <div class="tituloTarjetas">
                     <h4>VENTA</h4>
-                    <h2>VALOR DE TICKET</h2>
+                    <h2>VALOR DE TICKET $200</h2>
                 </div>
-                <section class="seccionFormulario" id="orador">
-                    <h4>CONVIERTETE EN UN</h4>
-                    <h2>ORADOR</h2>
-                    <p>Anótate como orador para dar una <a href="#" id="ignite">charla ignite.</a>  ¡Cuéntanos de qué quiere hablar!</p>
-                        <form class="formPrin">
+                <section class="seccionFormularioTk">
+                    
+                        <form class="formTk">
                             <div class="nyap">
-                                <input type="text" placeholder="Nombre" class="input-text">
-                                <input type="text" placeholder="Apellido" class="input-text">
+                                <input type="text" placeholder="Nombre" class="input-textTk">
+                                <input type="text" placeholder="Apellido" class="input-textTk">
                             </div>
-                            <textarea name="" id="" cols="30" rows="10" class="campTextarea">¿Sobre qué quieres hablar?</textarea>
-                            <p id="etiquetaFinal">Recuerda incluir un título para tu charla </p>
-                            <a href="#" class="boton4">Enviar</a>
+                            <div>
+                                <input type="text" placeholder="Email" class="input-textTk">
+                            </div>
+                            <div>
+                                    <div class="cantcate">
+                                        <label for="">Cantidad</label>
+                                        <input type="number" placeholder="cantidad" class="input-textTk">
+                                    </div>
+                                <div>
+                                    <label for="">Categoría</label>
+                                    
+                                    <select name="categoria" class="input-textTk">
+                                        <option value="0">--Seleccione--</option>
+                                        <option value="1">Estudiante</option>
+                                        <option value="2">Trainee</option>
+                                        <option value="3">Junior</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Total a Pagar: $</p>
+                            </div>
+                            <div class="botones_form"> 
+                            <input type="reset" value ="Borrar" class="boton5">
+                            <input type="submit" value ="Resumen" class="boton5">
+                            </div>
                         </form>
                 </section>
 
