@@ -31,16 +31,67 @@
 
 
         <div class="cajaticket">
-            <div class="cajacarteles">
-                    <div class="cajita">
-                        <h2 id="cajita1">Estudiante</h2>
-                        <p>tienen un descuento</p>
-                        <h2>80%</h2>
-                        <p>* Presentar Documentación</p>
-
+            <div class="cajaTarjetas">
+                
+                <div class="tarjetaCat fondoTar1" id="bordeCat1">
+                    <div class="cabeTar1">
+                    <h2>Estudiante</h2>
                     </div>
-                    <div class="cajita"></div>
-                    <div class="cajita"></div>
+                    <div class="contTarjeta">
+                        <div><p>Tienen un descuento</p></div>
+                        <div><h2>80%</h2></div>
+                        <div id="contTarjP2"><p>* Presentar Documentación</p></div>
+                        </div>
+                </div>
+
+                <div class="tarjetaCat fondoTar2" id="bordeCat2">
+                    <div class="cabeTar2">
+                    <h2>Trainee</h2>
+                    </div>
+                    <div class="contTarjeta">
+                        <div><p>Tienen un descuento</p></div>
+                        <div><h2>50%</h2></div>
+                        <div id="contTarjP2"><p>* Presentar Documentación</p></div>
+                        </div>
+
+                </div>
+
+                <div class="tarjetaCat fondoTar3" id="bordeCat3">
+                    <div class="cabeTar3">
+                    <h2>Junior</h2>
+                    </div>
+                    <div class="contTarjeta">
+                        <div><p>Tienen un descuento</p></div>
+                        <div><h2>15%</h2></div>
+                        <div id="contTarjP2"><p>* Presentar Documentación</p></div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
             </div>
             <div class="cajaformularioTk">
                 <div class="tituloTarjetas">
@@ -57,19 +108,20 @@
                             <div>
                                 <input type="text" placeholder="Email" class="input-textTk">
                             </div>
-                            <div>
-                                    <div class="cantcate">
+                            <div class="cantcate">
+                                    <div class="cantForm">
                                         <label for="">Cantidad</label>
                                         <input type="number" placeholder="cantidad" class="input-textTk">
                                     </div>
-                                <div>
+                                    <div class="cateForm">
                                     <label for="">Categoría</label>
                                     
                                     <select name="categoria" class="input-textTk">
-                                        <option value="0">--Seleccione--</option>
-                                        <option value="1">Estudiante</option>
-                                        <option value="2">Trainee</option>
-                                        <option value="3">Junior</option>
+                                        <option value="" selected>--Seleccione--</option>
+                                        <option value="1">Sin categoría</option>
+                                        <option value="2">Estudiante</option>
+                                        <option value="3">Trainee</option>
+                                        <option value="4">Junior</option>
                                     </select>
                                 </div>
                             </div>

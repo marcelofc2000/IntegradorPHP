@@ -336,7 +336,7 @@ h1{
     padding: 2rem 5rem;
     width:100%;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 
 .pietext{ 
@@ -354,57 +354,110 @@ h1{
 /* ********VENTA TICKETS************* */
 /* ********************************** */
 .cajaticket{
-    border: solid black 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 
-.cajacarteles{
-    background-color: pink;
+.cajaTarjetas{
     display: flex;
     column-gap: 15px;
-    padding: 5px;
-    height: 50vh;
-    width: 60%;
+    padding-top: 2rem;
+    /* height: 50vh; */
+    width: 55%;
     justify-content: space-around;
 
 }
 
-
-.cajita{
-    border: solid 1px black;
+.tarjetaCat{
     width: 30%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: auto;
+    /* height: 25vh; */
+    border-radius: 3%;
+    /* background-color: #0d6efd; */
 }
 
-#cajita1{
+
+.cabeTar1{
+    padding: 5%;
+    text-align: center;
+    color: white;
+    width: 100%;
     background-color: #0d6efd;
-    padding: 10%;
+}
+
+.fondoTar1{
+    background-color: #0d6efd;
+
+}
+
+#bordeCat1{
+    border: solid #0d6efd 3px;
+    border-radius: 3%;
+    
+}
+
+.cabeTar2{
+    background-color: #0dcaf0;
+    padding: 5%;
     text-align: center;
     color: white;
 }
 
-.cajita2{
-    border: solid 5px #0dcaf0;
-    width: 30%;
+#bordeCat2{
+    border: solid #0dcaf0 3px;
 }
 
-.cajita3{
-    border: solid 5px #ffc107;
-    width: 30%;
+.fondoTar2{
+    background-color: #0dcaf0;
+}
+
+.cabeTar3{
+    background-color: #ffc107;
+    padding: 5%;
+    text-align: center;
+    color: white;
+}
+
+#bordeCat3{
+    border: solid #ffc107 3px;
+}
+
+.fondoTar3{
+    background-color: #ffc107;
+}
+
+
+.contTarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    align-content: space-evenly;
+    row-gap: 1.5rem;
+    background-color: white;
+}
+
+.contTarjeta h2{
+    font-size: 2rem;
+}
+
+#contTarjP2{
+    color: #6c757d;
+}
+.contTarjeta p{
+    font-size: 1rem;    
 }
 
 .cajaformularioTk{
     display: flex;
     flex-direction: column;
-    border: solid green 5px;
     /* height: 50vh; */
-    width: 60%;
+    width: 55%;
 }
 
 .seccionFormularioTk{
@@ -431,11 +484,21 @@ h1{
     padding: 0.8rem;
     border-radius: 5px;
     font-size: 1.2rem;
+    color: #6b757e;
+
 }
 
 .cantcate{
     display: flex;
-    flex-direction: column;
+    column-gap: 1rem;
+}
+
+.cantForm{
+    width: 50%;
+}
+
+.cateForm{
+    width: 50%;
 }
 
 .boton5{
@@ -454,7 +517,7 @@ h1{
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    
+
 }
 
 
@@ -609,4 +672,66 @@ h1{
     font-size: 1rem;
 }
 
+/* -------------------------- */
+
+.cajaticket{
+    padding-top: 200px;
 }
+
+
+.cajaTarjetas{
+    flex-direction: column;
+    row-gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.tarjetaCat{
+    width: 80%;
+}
+
+
+.cajaformularioTk{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.seccionFormularioTk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    row-gap: 1rem;
+    font-size: 1.1rem;
+}
+
+
+.cantcate{
+   flex-direction: column;
+}
+
+.cantForm{
+    width: 100%;
+}
+
+.cateForm{
+    width: 100%;
+}
+
+.boton5{
+    width: 100%;
+}
+
+.botones_form{
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tituloTarjetas h2{
+ font-size: 1.5rem;
+}
+
+}
+
