@@ -479,14 +479,7 @@ h1{
     row-gap: 1rem;
 }
 
-.input-textTk{
-    width: 100%;
-    padding: 0.8rem;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    color: #6b757e;
 
-}
 
 .cantcate{
     display: flex;
@@ -520,12 +513,19 @@ h1{
 
 }
 
+.totalPagar{
+    background-color: #cfe2ff;
+    padding: 1.2rem;
+    border-radius: 5px;
+    color: #084298;
+}
+
 
 
 /* celular */
 @media screen and (max-width:768px){
     .cabecera{
-        position:absolute;
+        position:relative;
         flex-direction: column;
         width: 100%;
         }
@@ -674,9 +674,9 @@ h1{
 
 /* -------------------------- */
 
-.cajaticket{
+/* .cajaticket{
     padding-top: 200px;
-}
+} */
 
 
 .cajaTarjetas{
