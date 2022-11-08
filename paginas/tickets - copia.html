@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conf Bs As - Comprar Tickets</title>
+    <link rel="shortcut icon" href="../Assets/imagenes/favicon.ico">
+    <link rel="stylesheet" href="../CSS/estilo.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <!-- <script src="../JS/comprar_tickets.js"></script> -->
+</head>
+<body>
+    <header class="cabecera">
+        <div class="cajaLogo">
+            <img class="img__logo" src="../Assets/imagenes/codoacodo.png" alt="Codo A Codo">
+            <h2>Conf. Bs. As.</h2>
+        </div>
+
+        
+            <nav class="cajaNav">
+                <a href="..#Primaria" class="navtext">La conferencia</a> 
+                <a href="..#losoradores" class="navtext">Los oradores</a> 
+                <a href="..#ellugar" class="navtext">El lugar y la fecha</a>
+                <a href="..#orador" class="navtext">Conviertete en orador</a> 
+                <a href="../paginas/tickets.html" class="comprar">Comprar tickets</a> 
+            </nav>
+    </header>
+
+    <div class="cajaticket">
+        <div class="cajaTarjetas">
+                
+                <div class="tarjetaCat fondoTar1" id="bordeCat1">
+                    <div class="cabeTar1">
+                    <h2>Estudiante</h2>
+                    </div>
+                    <div class="contTarjeta">
+                        <div><p>Tienen un descuento</p></div>
+                        <div><h2>80%</h2></div>
+                        <div id="contTarjP2"><p>* Presentar Documentación</p></div>
+                    </div>
+                </div>
+
+                <div class="tarjetaCat fondoTar2" id="bordeCat2">
+                    <div class="cabeTar2">
+                    <h2>Trainee</h2>
+                    </div>
+                    <div class="contTarjeta">
+                        <div><p>Tienen un descuento</p></div>
+                        <div><h2>50%</h2></div>
+                        <div id="contTarjP2"><p>* Presentar Documentación</p></div>
+                    </div>
+                </div>
+
+                <div class="tarjetaCat fondoTar3" id="bordeCat3">
+                    <div class="cabeTar3">
+                    <h2>Junior</h2>
+                    </div>
+                    <div class="contTarjeta">
+                        <div><p>Tienen un descuento</p></div>
+                        <div><h2>15%</h2></div>
+                        <div id="contTarjP2"><p>* Presentar Documentación</p></div>
+                    </div>
+                </div>
+
+        </div>
+
+
+
+
+        <div class="cajaformularioTk">
+                <div class="tituloTarjetas">
+                    <h4>VENTA</h4>
+                    <h2>VALOR DE TICKET $200</h2>
+                </div>
+                <section class="seccionFormularioTk">
+                    
+                        <form class="formTk">
+                            <div class="nyap">
+                                <input type="text" placeholder="Nombre*" class="form-control" id="nombre">
+                                <input type="text" placeholder="Apellido*" class="form-control" id="apellido">
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Email*" class="form-control" id="mail">
+                            </div>
+                            <div class="cantcate">
+                                    <div class="cantForm">
+                                        <label for="cantidadTickets" class="form-label">Cantidad*</label>
+                                        <input type="number" placeholder="Cantidad" class="form-control" id="cantidadTickets">
+                                    </div>
+                                    <div class="cateForm">
+                                    <label for="categoriaSelect" class="form-label">Categoría*</label>
+                                    
+                                    <select class="form-select" id="categoriaSelect">
+                                        <option value="0"selected>--Seleccione--</option>
+                                        <option value="1">Sin categoría</option>
+                                        <option value="2">Estudiante</option>
+                                        <option value="3">Trainee</option>
+                                        <option value="4">Junior</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="totalPagar">Total a Pagar: $ <span id="totalPago" class="align-middle"></span>
+                            </div>
+                            <div class="botones_form"> 
+                            <button type="reset" class="boton5" id="btnBorrar">Borrar</button>
+                            <button type="button" class="boton5" id="btnResumen">Resumen</button>
+                            </div>
+                        </form>
+                </section>
+                <script src="../JS/comprar_tickets.js"></script>
+        </div>
+
+    </div>
+
+<footer class="pie">
+    <a href="#" class="pietext">Preguntas frecuentes</a>
+    <a href="#" class="pietext">Contáctanos</a>
+    <a href="#" class="pietext">Prensa</a>
+    <a href="#" class="pietext">Conferencia</a>
+    <a href="#" class="pietext">Términos y Condiciones</a>
+    <a href="#" class="pietext">Privacidad</a>
+    <a href="#" class="pietext">Estudiantes</a>
+</footer>
+
+</body>
+</html>

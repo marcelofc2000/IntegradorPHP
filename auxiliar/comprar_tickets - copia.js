@@ -79,29 +79,22 @@ if (categoria.value == "") {
 
 let totalValorTickets = (cantidadTickets.value) * valorTicket;
 
-// descuentos optimizado
-switch(categoria.value){
-    case "0":
-    case "1":
-        totalValorTickets = totalValorTickets;
-        break;
-
-    case "2":
-        totalValorTickets = totalValorTickets * descuentoEstudiante;
-        break;
-
-    case "3":
-        totalValorTickets = totalValorTickets * descuentoTrainee;
-        break;
-
-    case "4":
-        totalValorTickets = totalValorTickets * descuentoJunior;
-        break;
-
+// descuentos  **** optimizar **** 
+if (categoria.value == 0 || categoria.value == 1) {
+    totalValorTickets = totalValorTickets;
 }
-    
 
-// aca termina la prueba
+if (categoria.value == 2) {
+    totalValorTickets = totalValorTickets * descuentoEstudiante;
+} 
+
+if (categoria.value == 3) {
+    totalValorTickets = totalValorTickets * descuentoTrainee;
+}
+
+if (categoria.value == 4) {
+    totalValorTickets = totalValorTickets * descuentoJunior;
+}
 
 totalPago.innerHTML = totalValorTickets;
 
